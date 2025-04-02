@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <meta name="Paratopic" content = "Product Launcing">
+    <title> ParaShop </title>
+</head>
+
+<body>
+        <!-- New Awesome Product Styling -->
+        <h1 style="font-family: Times New Roman, Times, serif;
+         color: navy; background-color: orange;">
+             ParaPlan: Fight the organized scams and frauds NOW !
+             <br>
+             By means of Bees Colony System!
+        </h1>
+
+       <!-- Embedding img tag for bee picture -->
+       <!-- Address of  exercise(whole web page2B designed): "https://lecontent.sololearn.com/material-images/4547a643779d4f3cb5b458215343c135-2d2f28c3303a4b248cd51d568b4d5484-CR9.1.png" -->
+         <img src="E:/html_proj/productLandingPractice/ProductBanner.png">
+
+         <!-- paragraph about product -->
+        <p>
+            Introducing our <b>latest product, ParaPlan </b>, designed to make your life <br> easier and more efficient.
+        </p>
+
+        <!-- Bullet Lists of feautures of Product -->
+    <ul>
+        <li> Prevention from Organized scams and frauds by cutting-edge ML-based semi-supervised prediction models. </li>
+        <li> Real-time monitoring helps you get noticed about anomalies within your enterprise ASAP! </li>
+        <li> Reducing external and internal financial threats </li>
+
+    </ul>
+
+      <!-- Order Now heading level 2 -->
+       <h2 style="font-family: Times New Roman, Times, serif;
+         color: navy;">
+                Order Now!
+        </h2>
+
+
+           <!-- Order Form -->
+           <form>
+                     <!-- Enterprise size drop-down menu  -->
+            <label for="size"> Select your enterprise size: </label>
+                <select>
+                    <option> Small (10 to 100) </option>
+                    <option> Medium (100 to 1000) </option>
+                    <option> Mega (more than 1000) </option>
+                </select>
+
+            <br>
+            <br>
+                              <!-- Enterprise TYPE drop-down menu  -->
+            <label for="enterpriseType"> Type of your enterprise: </label>
+                   <select>
+                    <option> Public company </option>
+                    <option> Privately-held </option>
+                    <option> Government agency </option>
+                    <option> Self-employed </option>
+                    <option> Sole propietorship </option>
+                    <option> Partnership </option>
+                    <option> Non-profit </option>
+                </select>
+
+            <br>
+            <br>
+                    <!-- Brand and Corporate Email text boxes -->
+            <label for = "name"> Name: </label>
+                  <input type = "text" name = "name" id = "name" placeholder = "Type your Enterprise name">
+
+            <br>
+            <br>
+                <label for = "email" > Email: </label>
+                       <input type = "email" name = "email" id = "email" placeholder = "Type your coporate email">
+
+
+            <!-- Submit button  -->
+            <br>
+            <br>
+            <button> Submit </button>
+
+           </form>
+
+           <!-- CopyRight -->
+            <h6 style="font-size:10px; background-color: pink; color: purple" > Made with integrity in Paratopic Technologies, LLC.
+            All rights reserved permanently.
+
+             </h6>
+
+
+
+</body>
+
+</html>
